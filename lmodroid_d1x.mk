@@ -37,10 +37,10 @@ TARGET_SCREEN_HEIGHT := 2280
 TARGET_SCREEN_WIDTH := 1080
 
 ## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_NAME := lineage_d1x
+PRODUCT_NAME := lmodroid_d1x
 PRODUCT_DEVICE := d1x
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-N971N
